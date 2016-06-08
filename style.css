@@ -36,7 +36,6 @@ body {
   height: auto;
   padding: 3% 0;
 }
-.modal .btn
 .header-modal {
   background-color: #;
   padding: 1% 0;
@@ -54,7 +53,7 @@ body {
 }
 .header {
     padding: 4% 0 0 0 !important;
-    /*background-color: #34495e;*/
+    background-color: #F7F7F7;
     /*    background-image: url('images/Bg2.png');*/
     color: #fff;
     border-bottom: 1px solid #2D3E52;
