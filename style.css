@@ -1,0 +1,64 @@
+body {
+    direction: rtl;
+    background-color: #E8E8E8;
+}
+
+@font-face {
+    font-family: 'Droid-Regular';
+    src: url('AR-Fonts/DroidKufi-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Droid-Bold';
+    src: url(AR-Fonts/DroidKufi-Bold.ttf);
+}
+
+* {
+    font-family: 'Droid-Regular';
+}
+
+.header {
+    padding: 4% 0 0 0 !important;
+    /*background-color: #34495e;*/
+    /*    background-image: url('images/Bg2.png');*/
+    color: #fff;
+    border-bottom: 1px solid #2D3E52;
+}
+
+.navbar {
+    padding: 3% 0 !important;
+    color: #fff;
+}
+
+.logo-container img {
+    width: 250px;
+}
+
+.logo-container {
+    padding: 0 0;
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li {
+    display: inline-block;
+}
+
+.navbar li .btn {
+    box-shadow: none;
+    background-color: transparent;
+    color: #2D3E52;
+}
+
+.navbar li .btn:hover {
+    box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
+    background-color: transparent;
+}
+
+.navbar li a {
+    background-color: none;
+    display: block;
+    color: #2D3E52;
+}
