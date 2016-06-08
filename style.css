@@ -1,3 +1,6 @@
+* {
+    font-family: 'Droid-Regular';
+}
 body {
     direction: rtl;
     background-color: #E8E8E8;
@@ -17,10 +20,36 @@ body {
     src: url(AR-Fonts/DroidKufi-Bold.ttf);
 }
 
-* {
-    font-family: 'Droid-Regular';
+.fl-right{
+  float: right;
 }
-
+.fl-left{
+  float: left;
+}
+.modal-content{
+  background-color: #;
+}
+.modal {
+  overflow: hidden;
+}
+.modal.modal-fixed-footer .modal-content {
+  height: auto;
+}
+.header-modal {
+  background-color: #;
+  padding: 1% 0;
+}
+.modal .register, .modal .login {
+  /*background-color: #080;*/
+  padding: 2%;
+}
+.input-field label {
+  width: 100%;
+  padding: 0 4%;
+  text-align: right;
+}
+.register  .content-register, .login  .content-login  {
+}
 .header {
     padding: 4% 0 0 0 !important;
     /*background-color: #34495e;*/
