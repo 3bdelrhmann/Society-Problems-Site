@@ -5,6 +5,7 @@
     <title>Society Problems</title>
     <!--Import Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <link type="text/css" rel="stylesheet" href="style.css" />
@@ -22,16 +23,9 @@
               </div>
               <div class="col s12 navbar-container center-align">
                   <ul class="navbar" style='padding-bottom: 0 !important;margin-bottom: 0;'>
-                      <li><a href="#" class="waves-effect waves-light btn">الرئيسية</a></li>
-                      <li><a href="#" class="waves-effect waves-light btn">اضافة منشور جديد</a></li>
-                  </ul>
-                  <ul class="navbar">
-                      <li>
-                          <a href="#loginForm" class="waves-effect waves-light btn modal-trigger">تسجيل / تسجيل دخول</a>
-                      </li>
-                      <li><a href="#" class="waves-effect waves-light btn ">نبذة عن الموقع</a></li>
-                      <li><a href="#" class="waves-effect waves-light btn ">الاقسام هنا</a></li>
-                      <li><a href="#" class="waves-effect waves-light btn ">الاقسام هنا</a></li>
+                      <li><a href="#" class="waves-effect waves-light btn"><i class="fa fa-sort-desc fa-fw"></i> اقسام الموقع</a></li>
+                      <li><a href="#" class="waves-effect waves-light btn"><b>الرئيسية</b></a></li>
+                      <li><a href="#loginForm" class="waves-effect waves-light btn modal-trigger">تسجيل / تسجيل دخول</a> </li>
                   </ul>
                   <div id="loginForm" class="modal modal-fixed-footer " style="width: 70%;">
                       <div class="modal-content">

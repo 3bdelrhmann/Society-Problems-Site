@@ -19,7 +19,9 @@ body {
     font-family: 'Droid-Bold';
     src: url(AR-Fonts/DroidKufi-Bold.ttf);
 }
-
+.navbar-container ul li a{
+  font-size: 13px;
+}
 .fl-right{
   float: right;
 }
@@ -52,7 +54,7 @@ body {
 .register  .content-register, .login  .content-login  {
 }
 .header {
-    padding: 4% 0 0 0 !important;
+    padding: 1% 0 !important;
     background-color: #F7F7F7;
     /*    background-image: url('images/Bg2.png');*/
     color: #fff;
@@ -60,7 +62,7 @@ body {
 }
 
 .navbar {
-    padding: 3% 0 !important;
+    /*padding: 3% 0 !important;*/
     color: #fff;
 }
 
@@ -75,11 +77,20 @@ body {
 .navbar {
     list-style: none;
 }
+.navbar .category{
+  background-color: #E8E8E8;
+  padding: 2% 0 !important;
+  padding: 0;
+  width: 100%;
+  color: #fff !important;
+  border: 1px solid #CCC;
+  margin: 0;
+}
 
 .navbar li {
     display: inline-block;
+    text-align: right;
 }
-
 .navbar li .btn {
     box-shadow: none;
     background-color: transparent;
