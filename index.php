@@ -27,31 +27,71 @@
 
                 <ul class="navbar">
                     <li>
-                        <a href="#loginForm" class="waves-effect waves-light btn modal-trigger">دخول</a>
+                        <a href="#loginForm" class="waves-effect waves-light btn modal-trigger">تسجيل / تسجيل دخول</a>
                     </li>
-                    <li><a href="#" class="waves-effect waves-light btn">تسجيل</a></li>
                     <li><a href="#" class="waves-effect waves-light btn">نبذة عن الموقع</a></li>
                     <li><a href="#" class="waves-effect waves-light btn">الاقسام هنا</a></li>
                     <li><a href="#" class="waves-effect waves-light btn">الاقسام هنا</a></li>
                     <li><a href="#" class="waves-effect waves-light btn">الاقسام هنا</a></li>
                 </ul>
-                <div id="loginForm" class="modal modal-fixed-footer">
+                <div id="loginForm" class="modal modal-fixed-footer" style="width: 70%;">
                     <div class="modal-content">
-                        <h4>تسجيل الدخول</h4>
+                        <h5 class="darkblue">تسجيل / تسجيل الدخول</h5>
+                        <form class="register col l6 m12" style="border-right: 1px solid #2D3E52;">
+                            <h6 style="font-family: Droid-Bold;" class="darkblue">تسجيل مستخدم جديد</h6>
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type='text' class="validate" id="first-name" />
+                                    <label for="first-name">الاسم الكامل</label>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type='email' class="validate" id="email" />
+                                    <label for="email">البريد الالكتروني</label>
+                                </div>
+                            </div>
 
 
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type='password' class="validate" id="password" />
+                                    <label for="password">كلمة المرور</label>
+                                </div>
+                            </div>
+                        </form>
+
+                        <form class="login col l6 m12">
+                            <h6 style="font-family: Droid-Bold;" class="darkblue">تسجيل دخول</h6>
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type='email' class="validate" id="email" />
+                                    <label for="email">البريد الالكتروني</label>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="input-field col s12">
+                                    <input type='password' class="validate" id="password" />
+                                    <label for="password">كلمة المرور</label>
+                                </div>
+                            </div>
+                        </form>
                     </div>
-                    <div class="modal-footer">
-                        <a href="#!" class=" modal-action modal-close waves-effect waves-green btn-flat">دخول</a>
+                    <div class="modal-footer ">
+                        <a href="#! " class=" modal-action modal-close waves-effect waves-green btn-flat ">دخول</a>
                     </div>
-
                 </div>
             </div>
+
         </div>
     </div>
-    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-    <script src="js/materialize.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="js/materialize.min.js "></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>
