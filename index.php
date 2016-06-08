@@ -29,10 +29,10 @@
                     <li>
                         <a href="#loginForm" class="waves-effect waves-light btn modal-trigger">تسجيل / تسجيل دخول</a>
                     </li>
-                    <li><a href="#" class="waves-effect waves-light btn red">نبذة عن الموقع</a></li>
-                    <li><a href="#" class="waves-effect waves-light btn red">الاقسام هنا</a></li>
-                    <li><a href="#" class="waves-effect waves-light btn red">الاقسام هنا</a></li>
-                    <li><a href="#" class="waves-effect waves-light btn red">الاقسام هنا</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn ">نبذة عن الموقع</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn ">الاقسام هنا</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn ">الاقسام هنا</a></li>
+                    <li><a href="#" class="waves-effect waves-light btn ">الاقسام هنا</a></li>
                 </ul>
                 <div id="loginForm" class="modal modal-fixed-footer" style="width: 70%;">
                     <div class="modal-content">
