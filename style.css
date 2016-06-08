@@ -34,7 +34,9 @@ body {
 }
 .modal.modal-fixed-footer .modal-content {
   height: auto;
+  padding: 3% 0;
 }
+.modal .btn
 .header-modal {
   background-color: #;
   padding: 1% 0;
