@@ -44,9 +44,11 @@ body {
 }
 
 .navbar-container ul li a {
-    font-size: 13px;
+    font-size: 14px;
 }
-
+.dropdown li a {
+  font-size: 12px;
+}
 .fl-right {
     float: right;
 }
@@ -178,6 +180,11 @@ body {
 @media (max-width: 992px) {
     .register {
         border-right: none !important;
+    }
+}
+@media (max-width: 595px) {
+    .modal .register, .modal .login {
+        width: 100%;
     }
 }
 
