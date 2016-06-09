@@ -1,6 +1,7 @@
 * {
     font-family: 'Droid-Regular';
 }
+
 body {
     direction: rtl;
     background-color: #E8E8E8;
@@ -8,6 +9,28 @@ body {
 
 .darkblue {
     color: #2D3E52;
+}
+
+.bg-darkblue {
+    background: #2D3E52;
+}
+
+.btn {
+    border-radius: 0;
+}
+
+.mobile-toggle {
+    display: none;
+    background: transparent;
+    color: #2D3E52;
+    border: none;
+    font-size: 250%;
+}
+
+.mobile-toggle:target,
+.mobile-toggle:active,
+.mobile-toggle:focus {
+    background: transparent;
 }
 
 @font-face {
@@ -19,42 +42,52 @@ body {
     font-family: 'Droid-Bold';
     src: url(AR-Fonts/DroidKufi-Bold.ttf);
 }
-.navbar-container ul li a{
-  font-size: 13px;
+
+.navbar-container ul li a {
+    font-size: 13px;
 }
-.fl-right{
-  float: right;
+
+.fl-right {
+    float: right;
 }
-.fl-left{
-  float: left;
+
+.fl-left {
+    float: left;
 }
-.modal-content{
-  background-color: #;
+
+.modal-content {
+    background-color: #;
 }
+
 .modal {
-  overflow: hidden;
+    overflow: hidden;
 }
+
 .modal.modal-fixed-footer .modal-content {
-  height: auto;
-  padding: 2% 0;
+    height: auto;
+    padding: 2% 0;
 }
+
 .header-modal {
-  background-color: #;
-  padding: 1% 0;
+    background-color: #;
+    padding: 1% 0;
 }
-.modal .register, .modal .login {
-  /*background-color: #080;*/
-  padding: 2%;
+
+.modal .register,
+.modal .login {
+    /*background-color: #080;*/
+    padding: 2%;
 }
+
 .input-field label {
-  width: 100%;
-  padding: 0 4%;
-  text-align: right;
+    width: 100%;
+    padding: 0 4%;
+    text-align: right;
 }
-.register  .content-register, .login  .content-login  {
-}
+
 .header {
     padding: 1% 0 !important;
+    /*    padding-bottom: 55px !important;*/
     background-color: #F7F7F7;
     /*    background-image: url('images/Bg2.png');*/
     color: #fff;
@@ -77,27 +110,32 @@ body {
 .navbar {
     list-style: none;
 }
-.navbar .category{
-  background-color: #E8E8E8;
-  padding: 2% 0 !important;
-  padding: 0;
-  width: 100%;
-  color: #fff !important;
-  border: 1px solid #CCC;
-  margin: 0;
+
+.navbar .category {
+    background-color: #E8E8E8;
+    padding: 2% 0 !important;
+    padding: 0;
+    width: 100%;
+    color: #fff !important;
+    border: 1px solid #CCC;
+    margin: 0;
 }
 
 .navbar li {
     display: inline-block;
     text-align: right;
 }
+
 .navbar li .btn {
     box-shadow: none;
     background-color: transparent;
     color: #2D3E52;
 }
 
-.navbar li .btn:hover {
+.navbar li .btn:hover
+/**/
+
+{
     box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
     background-color: #2D3E52;
     color: #fff;
@@ -113,8 +151,53 @@ body {
     border-right: 1px solid #2D3E52;
 }
 
+.dropdown {
+    display: none;
+    width: 100%;
+    list-style-type: none;
+    background-color: #2D3E52;
+    overflow: auto;
+}
+
+.dropdown li {
+    display: inline-block;
+    padding: 10px 0 10px 0;
+    float: right;
+}
+
+.dropdown li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.dropdown li a:hover {
+    background-color: #fff;
+    color: #2D3E52;
+}
+
 @media (max-width: 992px) {
     .register {
         border-right: none !important;
+    }
+}
+
+@media (max-width: 580px) {
+    .mobile-toggle {
+        display: block;
+        float: right;
+        width: 100%;
+        text-align: right;
+    }
+    .navbar {
+        text-align: right;
+        width: 100%;
+        display: none;
+    }
+    .navbar li {
+        width: 100%;
+        text-align: right;
+    }
+    .navbar li a {
+        text-align: right;
     }
 }

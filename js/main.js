@@ -3,4 +3,13 @@
       $('.modal-trigger').leanModal({
           dismissible: true
       });
+
+      $('.dropdownToggle').click(function () {
+          $('.dropdown').slideToggle();
+      });
+
+      $('.mobile-toggle').click(function () {
+          $('.navbar').slideToggle();
+          $('.dropdown').slideUp();
+      });
   });
