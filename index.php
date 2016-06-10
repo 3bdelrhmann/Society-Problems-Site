@@ -118,7 +118,7 @@
       <div class="row">
         <div class="body-container">
           <section class="col m9 s12 right main">
-            <div class="main-header z-depth-1">
+            <div class="main-header z-depth-2">
               <h5>المنشورات الحديثة</h5>
               <p>
                  ترتيباً حسب :&nbsp;
@@ -129,10 +129,212 @@
                 </ul>
               </p>
             </div>
+            <section class="articles col s12">
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+              <article class="z-depth-1 article right col s12">
+                <div class="author right col s12 m2">
+                  <div class="author-img col s12">
+                    <img class="circle responsive-img" src="images/user.jpg" alt="Author Image" />
+                  </div>
+                  <div class="author-name col s12">
+                    <p>Abdelrhman Mohamed</p>
+                  </div>
+                </div>
+                <div class="content col m10">
+                  <div class="title-content  col s12">
+                    <h5>ما هو "لوريم إيبسوم" ؟</h5>
+                  </div>
+                  <article class="content-article col s12">
+                    <p>
+                      لوريم إيبسوم(Lorem Ipsum) هو ببساطة نص شكلي (بمعنى أن الغاية هي الشكل وليس المحتوى) ويُستخدم في صناعات المطابع ودور النشر. كان لوريم إيبسوم ولايزال المعيار للنص الشكلي منذ القرن الخامس عشر عندما قامت مطبعة مجهولة برص مجموعة من الأحرف بشكل عشوائي أخذتها من نص، لتكوّن كتيّب بمثابة دليل أو مرجع شكلي لهذه الأحرف. خمسة قرون من الزمن لم تقضي على هذا النص، بل انه حتى صار مستخدماً وبشكله الأصلي في الطباعة والتنضيد الإلكتروني.
+                    </p>
+                  </article>
+                  <div class="footer-content center col s12">
+                    <p>
+                      <span class="right">عدد المشاهدات : 1000 </span>
+                      <span>قسم : عام</span>
+                      <span class="left">تاريخ : 2016/3/13 </span>
+                    </p>
+                  </div>
+                </div>
+              </article>
+            </section>
           </section>
           <aside class="center-align col m3 s12">
-            <div class="Ads">
-
+            <div class="content-aside">
+              <div class="Ads300250">
+                <p>
+                  300 * 250
+                </p>
+              </div>
+            </div>
+            <div class="content-aside">
+              <div class="Ads160600">
+                <p>
+                  160 * 600
+                </p>
+              </div>
             </div>
           </aside>
         </div>
