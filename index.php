@@ -18,7 +18,7 @@
         <div class="col s12 header center-align z-depth-1">
             <div class="container">
                 <div class="logo-container">
-                    <img src="images/Logo.png" alt="Society Problems Logo !" />
+                    <h6 class="logo">Society Problems</h6>
                 </div>
                 <div class="col s12 navbar-container center-align">
                     <button class="mobile-toggle">
@@ -28,7 +28,7 @@
                         <li>
                             <a href="#loginForm" class="waves-effect waves-light btn modal-trigger">تسجيل / تسجيل دخول</a>
                         </li>
-                        <li><a href="#" class="waves-effect waves-light btn"><b>الرئيسية</b></a></li>
+                        <li><a href="#" class="home waves-effect waves-light btn"><b>الرئيسية</b></a></li>
                         <li id="sectionsLink">
                             <a href="#" class="dropdownToggle waves-effect waves-light btn"><i class="fa fa-sort-desc fa-fw"></i>اقسام الموقع</a>
                         </li>
@@ -40,7 +40,7 @@
                             </div>
                             <form class=" left register col l6 m12" style="border-right:1px solid #ddd;border-top: 1px solid #ddd;">
                                 <div class="header-register">
-                                    <h6 style="font-family: Droid-Bold;" class="darkblue">تسجيل مستخدم جديد</h6>
+                                    <h6 style="font-family: Swissra-light;" class="darkblue2">تسجيل مستخدم جديد</h6>
                                 </div>
                                 <div class="content-register">
                                     <div class="row">
@@ -69,13 +69,13 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type='submit' class="waves-effect waves-light btn" value="تسجيل" />
+                                            <input type='submit' class="waves-effect btn" value="تسجيل" />
                                         </div>
                                     </div>
                                 </div>
                             </form>
                             <form class="right login col l6 m12" style="border-top: 1px solid #ddd;">
-                                <h6 style="font-family: Droid-Bold;" class="darkblue">تسجيل دخول</h6>
+                                <h6 style="font-family: Swissra-light;" class="darkblue2">تسجيل دخول</h6>
                                 <div class="content-login">
                                     <div class="row">
                                         <div class="input-field col s12">
@@ -91,14 +91,14 @@
                                     </div>
                                     <div class="row">
                                         <div class="input-field col s12">
-                                            <input type='submit' class="waves-effect waves-light btn" value="تسجيل الدخول" />
+                                            <input type='submit' class="waves-effect btn" value="تسجيل الدخول" />
                                         </div>
                                     </div>
                                 </div>
                             </form>
                         </div>
                         <div class="modal-footer ">
-                            <a href="#! " class=" modal-action modal-close waves-effect waves-green btn-flat ">خروج</a>
+                            <a href="#! " class=" modal-action modal-close waves-effect btn-flat darkblue2">خروج</a>
                         </div>
                     </div>
                 </div>
@@ -114,7 +114,30 @@
           </div>
         </ul>
     </div>
+    <div class="container">
+      <div class="row">
+        <div class="body-container">
+          <section class="col m9 s12 right main">
+            <div class="main-header z-depth-1">
+              <h5>المنشورات الحديثة</h5>
+              <p>
+                 ترتيباً حسب :&nbsp;
+                <a class='dropdown-button btn' href='#' data-activates='dropdown1'>الاكثر مشاهدة <i class="fa fa-sort-desc fa-fw"></i></a>
+                <ul id='dropdown1' class='dropdown-content'>
+                  <li><a href="#!">الاعلي تقييماً</a></li>
+                  <li class="divider"></li>
+                </ul>
+              </p>
+            </div>
+          </section>
+          <aside class="center-align col m3 s12">
+            <div class="Ads">
 
+            </div>
+          </aside>
+        </div>
+      </div>
+    </div>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
     <script src="js/Plugins/nicescroll/jquery.nicescroll.min.js "></script>
     <script src="js/materialize.min.js "></script>
