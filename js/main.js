@@ -5,7 +5,7 @@
       });
 
       $('.dropdownToggle').click(function () {
-          $('.dropdown').slideToggle();
+          $('.dropdown').slideToggle(300);
       });
 
       $('.mobile-toggle').click(function () {
