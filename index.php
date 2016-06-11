@@ -340,6 +340,13 @@
         </div>
       </div>
     </div>
+    <div class="row">
+      <footer>
+        <div class="content-footer">
+          
+        </div>
+      </footer>
+    </div>
     <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
     <script src="js/Plugins/nicescroll/jquery.nicescroll.min.js "></script>
     <script src="js/materialize.min.js "></script>
