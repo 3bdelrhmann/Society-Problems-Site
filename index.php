@@ -111,9 +111,8 @@
             <div class="container">
                 <li><a class="btn btn-flat waves-effect waves-light" href='#'>مشاكل اجتماعية</a></li>
                 <li><a class="btn btn-flat waves-effect waves-light" href='#'>مشاكل مادية</a></li>
-                <li><a class="btn btn-flat waves-effect waves-light" href='#'>عام</a></li>
                 <li><a class="btn btn-flat waves-effect waves-light" href='#'>مشاكل خيالية</a></li>
-                <li><a class="btn btn-flat waves-effect waves-light" href='#'>شرح الاقسام</a></li>
+                <li><a class="btn btn-flat waves-effect waves-light" href='#'>عام</a></li>
             </div>
         </ul>
     </div>
@@ -121,7 +120,7 @@
         <div class="row">
             <div class="body-container">
                 <section class="col m9 s12 right main">
-                    <div class="main-header z-depth-2">
+                    <div class="main-header z-depth-1">
                         <h5>المنشورات الحديثة</h5>
                         <div>
                             ترتيباً حسب :&nbsp;
@@ -322,6 +321,12 @@
                                 </div>
                             </div>
                         </article>
+                        <div class="col s12 center">
+                          <div class="input-field" style="margin:2% 0;">
+                              <input class="waves-effect waves btn validate" required type="submit" value="تحميل المزيد" style="background: #3b77bd;
+                              color: #fff;" />
+                          </div>
+                        </div>
                     </section>
                 </section>
                 <aside class="center-align col m3 s12">
@@ -340,9 +345,9 @@
                         </div>
                     </div>
 
-                    <div style="background: #fff;" class="content-aside">
+                    <div class="content-aside">
                         <div class="aside-title">
-                            <h6>افضل 10 مؤلفين قصص خيالية</h6>
+                            <h6>افضل 10 مؤلفين مشاكل خيالية</h6>
                         </div>
 
                         <div class="aside-content">
@@ -404,13 +409,12 @@
         <div class="row">
             <footer style="background: #FFF;overflow: auto;">
                 <div class="col s12">
-                    <div class="col m6 s12 footer-section">
+                    <div class="col m4 s12 footer-section">
                         <div class="footer-title">
                             <h6>تابع</h6>
                         </div>
 
                         <div class="footer-content">
-
                             <form class="col s12">
                                 <div class="input-field">
                                     <label for="newsemail">
@@ -427,24 +431,31 @@
 
                         </div>
                     </div>
+                    <div class="col m4 s12 footer-section">
+                        <div class="footer-title">
+                            <h6>تابعنا علي</h6>
+                        </div>
+                        <div class="footer-content">
+                          <a href="#"><i class="icon fa fa-facebook fa-fw"></i></a>
+                          <a href="#"><i class="icon fa fa-twitter fa-fw"></i></a>
+                          <a href="#"><i class="icon fa fa-youtube fa-fw"></i></a>
+                        </div>
+                    </div>
 
-                    <div class="col m6 s12 ">
+                    <div class="right col m4 s12 ">
                         <div style="border-bottom: 1px solid #ddd; " class="footer-title ">
                             <h6>خريطة الموقع</h6>
                         </div>
 
                         <div class="footer-content col s12 ">
-                            <ul class="col s6 ">
-                                <li class="title ">
-                                    <a href="# ">الرئيسية</a>
-                                </li>
-                                <li>
-                                    <a href="# ">اتصل بنا</a>
-                                </li>
-                                <li>
-                                    <a href="# ">عن الموقع</a>
-                                </li>
-                            </ul>
+                          <ul class="col s6 ">
+                              <li class="title">
+                                <a href="# ">الرئيسية</a>
+                              </li>
+                              <li><a href="# ">اتصل بنا</a></li>
+
+                              <li><a href="# ">عن الموقع</a></li>
+                          </ul>
                             <ul class="col s6 ">
                                 <li class="title ">
                                     <a href="# ">شرح الاقسام</a>
@@ -457,10 +468,11 @@
                     </div>
                 </div>
                 <div class="copyrights center col s12 ">
-                    <h6>&copy; جميع الحقوق محفوظة لفريق <a style="color: #3b77bd; "href="# ">Rowyter</a>.</h6>
+                    <h6>جميع الحقوق محفوظة لفريق &copy; <a style="color: #3b77bd; "href="# ">Rowyter</a>.</h6>
                 </div>
             </footer>
         </div>
+      </div>
         <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
         <script src="js/Plugins/nicescroll/jquery.nicescroll.min.js "></script>
         <script src="js/materialize.min.js "></script>
