@@ -27,13 +27,12 @@ section {
 }
 
 .title-content h1 {
-    font-size: 210%;
+    font-size: 200%;
     color: #3b77bd;
 }
 
 .content-article p {
     text-align: justify;
-    font-size: 110%;
     line-height: 2;
 }
 
