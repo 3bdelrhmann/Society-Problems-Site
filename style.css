@@ -1,13 +1,13 @@
 ::-moz-selection {
     /* Code for Firefox */
     color: #fff;
-    background: #3b77bd;
+    background-color: #3b77bd;
 }
 
 ::selection {
     /* Chrom IE(9.0) Safari Opera */
     color: #fff;
-    background: #3b77bd;
+    background-color: #3b77bd;
 }
 
 
@@ -101,7 +101,7 @@
 
 body {
     direction: rtl;
-    background-color: #E8E8E8;
+    background-color: #ededed;
 }
 
 .darkblue2 {
@@ -113,7 +113,7 @@ body {
 }
 
 .bg-darkblue {
-    background: #2D3E52;
+    background-color: #2D3E52;
 }
 
 
@@ -121,7 +121,7 @@ body {
 
 .mobile-toggle {
     display: none;
-    background: transparent;
+    background-color: transparent;
     color: #2D3E52;
     border: none;
     font-size: 250%;
@@ -130,7 +130,7 @@ body {
 .mobile-toggle:target,
 .mobile-toggle:active,
 .mobile-toggle:focus {
-    background: transparent;
+    background-color: transparent;
 }
 
 .navbar-container ul li a {
@@ -149,10 +149,6 @@ body {
     float: left;
 }
 
-.modal-content {
-    background-color: #;
-}
-
 .modal-content .btn {
     font-family: 'swissra-light';
     color: #3b77bd;
@@ -169,7 +165,6 @@ body {
 }
 
 .header-modal {
-    background-color: #;
     padding: 1% 0;
 }
 
@@ -188,9 +183,7 @@ body {
 .header {
     padding: 1% 0 !important;
     /*    padding-bottom: 55px !important;*/
-    background-color: #F7F7F7;
-    /*    background-image: url('images/Bg2.png');*/
-    color: #fff;
+    background-color: #fff;
     border-bottom: 1px solid #2D3E52;
 }
 
@@ -328,12 +321,12 @@ body {
 }
 
 .container .body-container {
-    background-color: #fff;
+    background-color: #ededed;
     overflow: hidden;
 }
 
 .body-container .main-header {
-    background-color: #f7f7f7;
+    background-color: #fff;
     padding: 10px;
     color: #3b77bd;
     border-bottom: 1px solid #3b77bd;
@@ -360,7 +353,7 @@ body {
 .container .body-container aside {}
 
 .container .body-container .content-aside {
-    background-color: #f7f7f7;
+    background-color: #ededed;
     padding: 5px;
     border: 1px solid #aaa;
     margin: 15px 0 15px 0
@@ -388,6 +381,10 @@ body {
     border: 1px solid #2D3E52;
 }
 
+.top10 {
+    background-color: #fff !important;
+}
+
 .container .body-container aside .Ads160600 p,
 .container .body-container aside .Ads300250 p {
     padding: 35% 0;
@@ -402,9 +399,13 @@ body {
 
 .article {
     margin: 1% 0;
-    background-color: #f7f7f7;
+    background-color: #fff;
     border-bottom: 1px solid #3b77bd;
     padding: 10px !important;
+}
+
+.article .readmore {
+    background-color: #3B77BD;
 }
 
 .content {
@@ -566,7 +567,7 @@ footer .footer-title h6 {
     font-family: "swissra-light";
 }
 .copyrights {
-    background: #F7F7F7;
+    background-color: #f2f2f2;
     border-top: 1px solid #ddd;
     padding: 0.6% 0 !important;
 }
@@ -610,6 +611,10 @@ footer .footer-title h6 {
     margin: 0 auto;
     margin-top: 8.7%;
     height: 100px;
+}
+.footer-row {
+    margin-bottom: 0 !important;
+    margin-top: 20px;
 }
 
 /* / Footer */
