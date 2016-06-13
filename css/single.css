@@ -1,0 +1,48 @@
+.author-content img {
+    width: 100%;
+    height: 100%;
+}
+
+section {
+    color: #2D3E52;
+}
+
+.title-content {
+    padding-bottom: 100%;
+}
+
+.article,
+.article-header {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+
+.article-header {
+    border-bottom: 1px solid #ddd;
+    color: #3b77bd;
+}
+
+.title-content {
+    margin: 8px;
+}
+
+.title-content h1 {
+    font-size: 210%;
+    color: #3b77bd;
+}
+
+.content-article p {
+    text-align: justify;
+    font-size: 110%;
+    line-height: 2;
+}
+
+.content-article {
+    border-bottom: 1px solid #ddd;
+}
+
+@media (min-width: 992px) {
+    .title-content {
+        border-left: 1px solid #ddd;
+    }
+}
