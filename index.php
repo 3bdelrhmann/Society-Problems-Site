@@ -404,13 +404,12 @@
         <div class="row">
             <footer style="background: #FFF;overflow: auto;">
                 <div class="col s12">
-                    <div class="col m6 s12 footer-section">
+                    <div class="col m4 s12 footer-section">
                         <div class="footer-title">
-                            <h6>تابع</h6>
+                            <h6>تابع المنشورات</h6>
                         </div>
 
                         <div class="footer-content">
-
                             <form class="col s12">
                                 <div class="input-field">
                                     <label for="newsemail">
@@ -428,22 +427,32 @@
                         </div>
                     </div>
 
-                    <div class="col m6 s12 ">
+                    <div class="col m4 s12 footer-section">
+                        <div class="footer-title">
+                            <h6>تابعنا علي</h6>
+                        </div>
+                        <div class="footer-content">
+                            <div class="icons-container">
+                                <a href="#"><i class="icon fa fa-facebook-square"></i></a>
+                                <a href="#"><i class="icon fa fa-twitter-square"></i></a>
+                                <a href="#"><i class="icon fa fa-youtube-square"></i></a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col m4 s12 footer-section">
                         <div style="border-bottom: 1px solid #ddd; " class="footer-title ">
                             <h6>خريطة الموقع</h6>
                         </div>
 
                         <div class="footer-content col s12 ">
                             <ul class="col s6 ">
-                                <li class="title ">
+                                <li class="title">
                                     <a href="# ">الرئيسية</a>
                                 </li>
-                                <li>
-                                    <a href="# ">اتصل بنا</a>
-                                </li>
-                                <li>
-                                    <a href="# ">عن الموقع</a>
-                                </li>
+                                <li><a href="# ">اتصل بنا</a></li>
+
+                                <li><a href="# ">عن الموقع</a></li>
                             </ul>
                             <ul class="col s6 ">
                                 <li class="title ">
@@ -455,16 +464,22 @@
                             </ul>
                         </div>
                     </div>
+
+
                 </div>
                 <div class="copyrights center col s12 ">
-                    <h6>&copy; جميع الحقوق محفوظة لفريق <a style="color: #3b77bd; "href="# ">Rowyter</a>.</h6>
+                    <h6>
+                        &copy; جميع الحقوق محفوظة لفريق
+                        <a style="color: #3b77bd; "href="# ">Rowyter</a>.
+                    </h6>
                 </div>
             </footer>
         </div>
-        <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
-        <script src="js/Plugins/nicescroll/jquery.nicescroll.min.js "></script>
-        <script src="js/materialize.min.js "></script>
-        <script src="js/main.js "></script>
+    </div>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js "></script>
+    <script src="js/Plugins/nicescroll/jquery.nicescroll.min.js "></script>
+    <script src="js/materialize-rtl.js"></script>
+    <script src="js/main.js "></script>
 </body>
 
 </html>
