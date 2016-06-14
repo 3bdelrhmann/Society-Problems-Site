@@ -2,7 +2,12 @@
     width: 50px;
     height: 50px;
 }
-
+.author-content .author-img{
+  padding: 5% 0;
+}
+.author-name .article-date {
+  font-size: 12px;
+}
 section {
     color: #2D3E52;
 }
@@ -96,6 +101,11 @@ section {
     border-left: 1px solid #ddd;
 }
 
+@media (max-width: 600px) {
+    .article-header .title-content {
+      border-bottom: 1px solid #ddd;
+    }
+}
 @media (min-width: 992px) {
     .comments-title.title-content h1 {
         margin: 10px auto 10px auto;
