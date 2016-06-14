@@ -31,42 +31,42 @@
 
 @font-face {
     font-family: 'Swissra-Black';
-    src: url('AR-Fonts/OTF/Swissra Black.otf');
+    src: url('fonts/swissra/Swissra Black.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Bold';
-    src: url('AR-Fonts/OTF/Swissra Bold.otf');
+    src: url('fonts/swissra/Swissra Bold.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Heavy';
-    src: url('AR-Fonts/OTF/Swissra Heavy.otf');
+    src: url('fonts/swissra/Swissra Heavy.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Light';
-    src: url('AR-Fonts/OTF/Swissra Light.otf');
+    src: url('fonts/swissra/Swissra Light.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Medium';
-    src: url('AR-Fonts/OTF/Swissra Medium.otf');
+    src: url('fonts/swissra/Swissra Medium.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Normal';
-    src: url('AR-Fonts/OTF/Swissra Normal.otf');
+    src: url('fonts/swissra/Swissra Normal.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Thin';
-    src: url('AR-Fonts/OTF/Swissra Thin.otf');
+    src: url('fonts/swissra/Swissra Thin.otf');
 }
 
 @font-face {
     font-family: 'Swissra-Ultra-Light';
-    src: url('AR-Fonts/OTF/Swissra Ultra Light.otf');
+    src: url('fonts/swissra/Swissra Ultra Light.otf');
 }
 
 
@@ -77,7 +77,7 @@
 
 @font-face {
     font-family: 'Core-Rhino';
-    src: url('Logo-Font/CoreRhino45Regular.otf');
+    src: url('fonts/core-rhino/CoreRhino45Regular.otf');
 }
 
 
@@ -115,9 +115,11 @@ body {
 .bg-darkblue {
     background-color: #2D3E52;
 }
+
 .CustomRow {
-  margin: 0;
+    margin: 0;
 }
+
 
 /*Header*/
 
@@ -321,11 +323,11 @@ body {
 }
 
 .container .body-container {
-  overflow: hidden;
-  background: #fff;
-  padding: 3%;
-  border-top: 2px solid #3B77BD;
-  border-bottom: 2px solid #3B77BD;
+    overflow: hidden;
+    background: #fff;
+    padding: 3%;
+    border-top: 2px solid #3B77BD;
+    border-bottom: 2px solid #3B77BD;
 }
 
 .body-container .main-header {
@@ -407,6 +409,7 @@ body {
 .article {
     margin: 1% 0;
     background-color: #fff;
+    border: 1px solid #ddd;
     border-bottom: 1px solid #3b77bd;
     padding: 10px !important;
 }
@@ -452,6 +455,10 @@ body {
     color: #3b77bd;
 }
 
+.four0four {
+    font-size: 404%;
+}
+
 .articles .article .content-article {
     /*background-color: #00f;*/
     text-align: justify;
@@ -470,10 +477,6 @@ body {
 .article .author .author-img .responsive-img {
     width: 70px;
     height: 70px;
-}
-
-.main .article .author .author-img .responsive-img {
-    width: 50%;
 }
 
 input:not([type]):focus:not([readonly]),
@@ -582,7 +585,6 @@ footer .footer-title h6 {
     border-top: 1px solid #ddd;
     padding: 0.6% 0 !important;
 }
-
 .footer-section {
     margin-bottom: 10px;
 }
