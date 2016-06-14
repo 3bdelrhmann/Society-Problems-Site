@@ -363,7 +363,11 @@ body {
     border: 1px solid #aaa;
     margin: 15px 0 15px 0
 }
-.container .body-container .content-aside:first-child{margin-top: 0;}
+
+.container .body-container .content-aside:first-child {
+    margin-top: 0;
+}
+
 .container .body-container .content-aside:last-child {
     margin-bottom: 0;
 }
@@ -425,8 +429,8 @@ body {
     overflow: hidden;
 }
 
-.article .author .author-img,
-.article .author .author-name {
+.author .author-img,
+.author .author-name {
     overflow: hidden;
     text-align: center;
     /*background-color: #080;*/
@@ -439,14 +443,14 @@ body {
     border-bottom: 1px solid #2D3E52;
 }
 
-.articles .article .title-content {
+.title-content {
     /*background-color: #f00;*/
     padding: 2% 1%;
     border-bottom: 1px solid #ddd;
 }
 
-.articles .article .title-content h5 {
-    margin: 0;
+.title-content h5,
+.title-content a {
     color: #3b77bd;
 }
 
