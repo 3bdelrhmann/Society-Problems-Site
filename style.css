@@ -290,7 +290,7 @@ body {
     }
 }
 
-@media (max-width: 580px) {
+@media (max-width: 632px) {
     .mobile-toggle {
         display: block;
         float: right;
