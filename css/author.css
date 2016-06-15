@@ -8,18 +8,28 @@ blockquote {
 .imgAuthor {
   background-color: #;
 }
+
 .nameAuthor,.dateRegister {
   background-color: #;
+}
+.SocialIcons {
+  background-color: #fff
+}
+.SocialIcons i{
+  font-size: 25px;
+  color: #aaa;
+}
+.SocialIcons i:hover {
+  opacity: .5;
 }
 .nameAuthor h5 {
   color: #3B77BC;
   margin: 0;
-  padding: 1% 3%;
 }
 .dateRegister {
   color: #aaa;
 }
 .imgAuthor img{
-  height: 120px;
+  height: 115px;
   width: 120px;
 }
